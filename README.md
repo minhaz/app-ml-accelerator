@@ -85,11 +85,11 @@ After release 2.2, the application can use text generating AI to summarize the m
 
   ##### 7b: Create the Remote Text-Generation Model
 
-In BigQuery, enter the following statement in the query editor (this code uses the suggested naming conventions for the the steps above and assumes region is US-Multi). The text-bison@002 model is suggested, but other LLM models with good performance generating text could also be used. The model_name will be later added as a User Attribute value. A suggestion for model_name is "mla-text-bison"
+In BigQuery, enter the following statement in the query editor (this code uses the suggested naming conventions for the the steps above and assumes region is US-Multi). The 'gemini-2.0-flash' model is suggested, but other LLM models with good performance generating text could also be used. The model_name will be later added as a User Attribute value. A suggestion for model_name is "mla_gemini_2flash"
 ```
 CREATE OR REPLACE MODEL project_id.dataset_id.model_name
   REMOTE WITH CONNECTION `us.ext-vertex-ai`
-  OPTIONS (endpoint = 'text-bison@002');
+  OPTIONS (endpoint = 'gemini-2.0-flash');
 ```
 This will take a few minutes to load and will not return any results. 
 
