@@ -1,5 +1,7 @@
 # Machine Learning Accelerator
 
+This is not an officially supported Google product. This project is not eligible for the [Google Open Source Software Vulnerability Rewards Program](https://bughunters.google.com/open-source-security).
+
 The ML Accelerator is a purpose-built Looker application designed to give business users access to BigQuery and Vertex AI's machine learning capabilities. It provides a user-friendly interface designed to guide the user through each step of creating a machine learning model. Because of its simple, no-code interface, the application serves as a pathway for business analysts to learn and use predictive analytics in Looker.
 
 View the [ML Model Creation Flow](https://github.com/looker-open-source/app-ml-accelerator/blob/main/ML_Model_Creation_Flow.md) document for an example of an end-to-end user journey.
@@ -9,8 +11,6 @@ View the [ML Model Creation Flow](https://github.com/looker-open-source/app-ml-a
 **Additional configuration is required after installation. A Looker Admin should complete the application configuration using the Installation Instructions below.**
 
 Report bugs or feature requests with [this form](https://docs.google.com/forms/d/e/1FAIpQLSd97ptoU3TUuasZeFjSBHT9FQiyrDzjHUm7NTspEjz5kwNSAA/viewform). Contact [ml-accelerator-feedback@google.com](mailto:ml-accelerator-feedback@google.com) with questions or comments.
-
----
 
 ### INSTALLATION INSTRUCTIONS
 
@@ -96,7 +96,7 @@ This will take a few minutes to load and will not return any results.
   ##### 7c: Update the Relevant User Attribute
 
   Similar to section 5 above.
-  
+
   | **Required User Attribute Name**                                | **Default Value Description**  |
   |-----------------------------------------------------------------|--------------------------------|
   | marketplace_bqml_ext_ml_accelerator_generate_text_model_name    | Name chosen in step 7b above   |
